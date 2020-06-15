@@ -1,0 +1,3 @@
+Mielőtt dinamikus adatokkal komplikálnád az életed, készítsd el az appod statikus verzióját. Ez sokat segít abban, hogy először csak a struktúrára, fájlok hierarchiájára, komponensekre tudj koncentrálni, anélkül, hogy a logikát is egyből meg akarnád oldani.
+Érdemes létrehoznod egy App.js komponenst, amely az összes többi komponensedet tárolja, és leírja az applikációd struktúráját. Ebbe az App.js fájlba importálódik az összes komponensed, és cserébe egyedül ez importálódik az index.js fájlba.
+Hatékony megközelítés lehet, ha először az App.js-ben írod meg az applikációd elképzelt struktúráját, még nem létező komponensekkel, és csak a következő lépésben hozod ezeket létre.
